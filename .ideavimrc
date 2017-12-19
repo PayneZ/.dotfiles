@@ -1,0 +1,12 @@
+inoremap jk <esc>
+inoremap ;; <esc>A;
+inoremap {{ <esc>A{<cr>
+inoremap ppp System.out.println()<left>
+inoremap ddb /*====================DEBUG BEGINS====================*/
+inoremap dde /*====================DEBUG ENDS======================*/
+inoremap mk <right>
+nnoremap <leader>ev :e ~/.ideavimrc<cr>
+nnoremap <leader>sv :source ~/.ideavimrc<cr>
+
+
+set hls
